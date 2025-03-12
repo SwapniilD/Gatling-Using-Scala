@@ -41,9 +41,9 @@ class DemoLoadTest extends Simulation {
   // SetUp Configuration
   setUp(
     scene.inject(
-      nothingFor(1), // Optional: Wait 1 second before starting the injection
-      atOnceUsers(1), // Start injecting users one by one
-      rampUsers(25).during(10) // Inject 25 users over 25 seconds
+      //nothingFor(1), // Optional: Wait 1 second before starting the injection
+      //atOnceUsers(1), // Start injecting users one by one
+      rampUsers(25).during(10) // Inject 25 users over 10 seconds
     )
   ).protocols(httpProtocol)
 }
