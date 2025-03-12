@@ -79,29 +79,4 @@
     </plugins>
   </build>
 
-  <!-- Define Profiles for QA & PROD -->
-  <profiles>
-    <!-- QA Environment -->
-    <profile>
-      <id>qa</id>
-      <properties>
-        <env>qa</env>
-      </properties>
-      <activation>
-        <activeByDefault>false</activeByDefault>
-      </activation>
-    </profile>
-
-    <!-- PROD Environment -->
-    <profile>
-      <id>prod</id>
-      <properties>
-        <env>prod</env>
-      </properties>
-      <activation>
-        <activeByDefault>false</activeByDefault>
-      </activation>
-    </profile>
-  </profiles>
-
 </project>
