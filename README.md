@@ -13,10 +13,8 @@ Ensure you have the following installed before setting up the project:
 
 ## Setup Instructions
 1. Clone the Repository
-<sub>
-git clone https://github.com/your-username/your-gatling-project.git
-cd your-gatling-project
-</sub>
+`git clone https://github.com/your-username/your-gatling-project.git
+cd your-gatling-project`
 
 2. Configure IntelliJ IDEA
 * Open IntelliJ IDEA and select Open Project.
@@ -31,30 +29,22 @@ cd your-gatling-project
 
 3. Build the Project
 Run the following command to build the project and ensure all dependencies are installed:
-<sub>
-mvn clean install
-</sub>
+`mvn clean install`
 
 ## Running Gatling Tests
 
 1. Execute the Demo Test
 Run the following command to execute the test:
-<sub>
-mvn gatling:test
-</sub>
+`mvn gatling:test`
 
 2. View Test Reports
 After execution, Gatling generates a detailed HTML report in the target/gatling directory. Open the latest test report in a browser:
-<sub>
-open target/gatling/<test-name>/index.html
-</sub>
+`open target/gatling/<test-name>/index.html`
 
 ## Using Gatling Recorder
 Gatling provides a built-in Recorder to capture HTTP requests and generate scripts automatically.
 * Run the Recorder:
-<sub>
-mvn gatling:recorder
-</sub>
+`mvn gatling:recorder`
 
 * Configure the proxy settings and start recording your actions.
 
