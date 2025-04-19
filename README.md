@@ -13,7 +13,7 @@ Ensure you have the following installed before setting up the project:
 
 ## Setup Instructions
 1. Clone the Repository
-`git clone https://github.com/your-username/your-gatling-project.git
+`git clone https://github.com/SwapniilD/Gatling-Using-Scala.git
 cd your-gatling-project`
 
 2. Configure IntelliJ IDEA
